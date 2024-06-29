@@ -1,24 +1,22 @@
 <template>
-  <div class="page-header">
-    <div class="left">
+  <div class="containers">
+    <div class="containers__left">
 
     </div>
-    <div class="right">
+    <div class="containers__right">
 
     </div>
-    <div class="text">
-      <div class="text-1">
-
+    <div class="containers__text">
+      <div class="containers__text-1">
         Информационный портал для абитуриентов ВГТУ
-        <h1>
+        <h1 class="containers__heading">
           СТРОИМ БУДУЩЕЕ ВМЕСТЕ!
         </h1>
       </div>
       <div class="button red shine" ref="button">
-        <span data-title="Выбрать профиль">Выбрать профиль</span>
+        <span class="button__title" data-title="Выбрать профиль">Выбрать профиль</span>
       </div>
     </div>
-
   </div>
 </template>
 
@@ -160,7 +158,7 @@ body {
 .button:hover span::before {
   transform: translate(-1px, -1px) translateZ(1em);
 }
-.page-header {
+.containers {
   font-family: Noto Sans, sans-serif;
   position: relative;
   display: flex;
@@ -170,7 +168,7 @@ body {
   justify-content: center;
 }
 
-.left {
+.containers__left {
   height: 100vh;
   width: 100vw;
   background-image: url("@/assets/img/53060002.jpg");
@@ -182,7 +180,7 @@ body {
   filter: brightness(80%)
 }
 
-.right {
+.containers__right {
   height: 100vh;
   width: 100vw;
   background-image: url("@/assets/img/5.svg");
@@ -194,7 +192,7 @@ body {
 
 }
 
-.text {
+.containers__text {
   position: relative;
   color: white;
   z-index: 4;
@@ -203,7 +201,7 @@ body {
 
 }
 
-.text-1{
+.containers__text-1{
   margin-bottom: 10%;
 }
 
