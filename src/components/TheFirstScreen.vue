@@ -1,4 +1,5 @@
 <template>
+  <Header/>
   <div class="containers">
     <div class="containers__left">
 
@@ -21,7 +22,10 @@
 </template>
 
 <script>
+import Header from "@/components/Header.vue";
+
 export default {
+  components: {Header},
   mounted() {
     this.shineItUp(this.$refs.button);
   },
@@ -92,8 +96,7 @@ body {
   position: relative;
   transform-style: preserve-3d;
   box-shadow: 0.5em 0.5em 1em 0 rgba(0, 0, 0, 0), 0 -3px 0 0 rgba(0, 0, 0, 0.15) inset;
-  transform: scale(var(--s, 1)) rotateX(calc(((var(--y) - 50) * -1) * 0.25deg))
-  rotateY(calc(((var(--x) - 50)) * 0.25deg)) translateZ(var(--z, .1em));
+  transform: scale(var(--s, 1)) rotateX(calc(((var(--y) - 50) * -1) * 0.25deg)) rotateY(calc(((var(--x) - 50)) * 0.25deg)) translateZ(var(--z, .1em));
 }
 
 .button::before,
@@ -158,6 +161,7 @@ body {
 .button:hover span::before {
   transform: translate(-1px, -1px) translateZ(1em);
 }
+
 .containers {
   font-family: Noto Sans, sans-serif;
   position: relative;
@@ -201,7 +205,7 @@ body {
 
 }
 
-.containers__text{
+.containers__text {
   margin-bottom: 10%;
 }
 
