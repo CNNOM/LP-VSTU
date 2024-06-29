@@ -1,0 +1,67 @@
+<template>
+  <div class="page-header">
+    <div class="left">
+
+    </div>
+    <div class="right">
+
+    </div>
+    <div class="text">
+
+      Информационный портал для абитуриентов ВГТУ
+      <h1>
+        СТРОИМ БУДУЩЕЕ ВМЕСТЕ!
+      </h1>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {}
+</script>
+
+<style lang="scss" scoped>
+
+.page-header {
+  font-family: Noto Sans, sans-serif;
+  position: relative;
+  display: flex;
+  height: 100vh;
+  text-shadow: 1px 1px 1px #000;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("@/assets/img/53060002.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  z-index: 1;
+  filter: brightness(80%)
+}
+
+.right {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("@/assets/img/5.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  z-index: 2;
+
+}
+
+.text {
+  position: relative;
+  color: white;
+  z-index: 4;
+  text-align: center;
+}
+
+</style>
