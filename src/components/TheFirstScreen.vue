@@ -6,8 +6,8 @@
     <div class="containers__right">
 
     </div>
-    <div class="containers__text">
-      <div class="containers__text-1">
+    <div class="containers__content">
+      <div class="containers__text">
         Информационный портал для абитуриентов ВГТУ
         <h1 class="containers__heading">
           СТРОИМ БУДУЩЕЕ ВМЕСТЕ!
@@ -192,7 +192,7 @@ body {
 
 }
 
-.containers__text {
+.containers__content {
   position: relative;
   color: white;
   z-index: 4;
@@ -201,7 +201,7 @@ body {
 
 }
 
-.containers__text-1{
+.containers__text{
   margin-bottom: 10%;
 }
 
