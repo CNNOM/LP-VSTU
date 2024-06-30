@@ -9,10 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "slick-carousel": "^1.8.1",
     "vue": "^3.4.29"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
+    "jquery": "^3.7.1",
     "sass": "^1.77.6",
     "vite": "^5.3.1"
   }
