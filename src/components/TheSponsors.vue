@@ -1,13 +1,15 @@
 <template>
-  <div class="in-number">
-    Спонсоры
-  </div>
-  <div class="grid-container">
-    <div class="grid-item" v-for="(item, index) in items" :key="index">
-      <div class="circle">
-        <img :src="item.imageSrc" :alt="item.text">
+  <div class="page-contain">
+    <div class="in-number">
+      Спонсоры
+    </div>
+    <div class="grid-container">
+      <div class="grid-item" v-for="(item, index) in items" :key="index">
+        <div class="circle">
+          <img :src="item.imageSrc" :alt="item.text">
+        </div>
+        <p>{{ item.text }}</p>
       </div>
-      <p>{{ item.text }}</p>
     </div>
   </div>
 </template>
@@ -37,7 +39,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.page-contain {
+  align-items: center;
+  justify-content: center;
+  background: #F0F0F0;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+}
+
 .in-number{
+
   text-align: center;
   font-size: 34px;
   font-weight: 200;
