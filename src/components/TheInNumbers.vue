@@ -41,7 +41,7 @@ export default {
   data() {
     return {
       block60Data: [
-        { number: "> 20000", text: "Студентов", imageSrc: peple }
+        { number: "> 20 000", text: "Студентов", imageSrc: peple }
       ],
       block40Data: [
         { number: "> 2000", text: "Волонтеров", imageSrc: volunteer },
@@ -64,6 +64,7 @@ export default {
   display: flex;
   height: 70vh;
   border-radius: 25%;
+  margin-bottom: 5%;
 }
 .block-60 {
   width: 55%;
@@ -80,11 +81,15 @@ img{
 }
 
 .in-number{
+  font-family: 'Open Sans', sans-serif;
+
   text-align: center;
   font-size: 34px;
   font-weight: 200;
   line-height: 2;
   color: #2c3e50;
+  margin-top: 5%;
+  margin-bottom: 2%;
 }
 .block-40 {
   width: 45%;

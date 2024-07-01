@@ -1,5 +1,5 @@
 <template>
-  <div class="containers">
+  <div class="page-contain">
     <h1>
       Поступление в ВГТУ
     </h1>
@@ -60,6 +60,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+
+.page-contain {
+  min-height: 85vh;
+  align-items: center;
+  justify-content: center;
+  background: #F0F0F0;
+  padding: 2em;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+}
+
 .ag-format-container {
   width: 1142px;
   margin: 0 auto;
