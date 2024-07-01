@@ -9,7 +9,7 @@
           <img src="../assets/img/VSTU-logo-white.png" alt="Логотип" class="logo">
         </div>
         <div class="footer-right">
-          <a href="https://github.com/CNNOM/CNNOM-IP_Dxracer" target="_blank" rel="noopener noreferrer"
+          <a href="https://github.com/CNNOM/LP-VSTU" target="_blank" rel="noopener noreferrer"
              class="github-link">
             <img src="@/assets/img/git.png" alt="GitHub" class="github-logo">
             <span class="github-text">  GitHub</span>
