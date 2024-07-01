@@ -2,7 +2,7 @@
   <div class="info-block">
     <div class="content">
       <div class="header">
-        <a>{{ number }}</a>
+        <a>> {{ number }}</a>
         <img :src="imageSrc" :alt="text">
       </div>
       <div class="line"></div>
