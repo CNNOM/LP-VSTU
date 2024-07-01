@@ -45,7 +45,8 @@ header {
   gap: 1em;
   z-index: 1000;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+
 
 }
 
