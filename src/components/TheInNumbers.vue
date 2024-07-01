@@ -65,9 +65,11 @@ export default {
   height: 70vh;
   border-radius: 25%;
   margin-bottom: 5%;
+  font-family: 'Open Sans', sans-serif;
+
 }
 .block-60 {
-  width: 55%;
+  width: 50%;
   background-color: #4F709C;
   display:block;
   align-items: center;
@@ -92,7 +94,7 @@ img{
   margin-bottom: 2%;
 }
 .block-40 {
-  width: 45%;
+  width: 50%;
   display: flex;
   flex-wrap: wrap;
 }
