@@ -75,13 +75,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-body {
+.containers {
   min-height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1em;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 .button {
@@ -207,6 +209,7 @@ body {
 
 .containers__text {
   margin-bottom: 10%;
+  font-size: 1.5em;
 }
 
 

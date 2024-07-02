@@ -46,7 +46,7 @@ export default {
       block40Data: [
         { number: 2000, text: "Волонтеров", imageSrc: volunteer },
         { number: 3000, text: "Бюджетных мест", imageSrc: loc },
-        { number: 400, text: "Нероприятий в год", imageSrc: event },
+        { number: 400, text: "Мероприятий в год", imageSrc: event },
         { number: 100, text: "Лабораторий", imageSrc: laboratory },
         { number: 50, text: "Реализуемых проектов", imageSrc: project },
         { number: 35, text: "Научных направлений", imageSrc: science },
