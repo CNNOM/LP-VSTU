@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import InfoBlock from "@/components/InfoBlock.vue";
+import InfoBlock from "@/components/number/InfoBlock.vue";
 import peple from  '@/assets/img/peple.svg'
 import volunteer from  '@/assets/img/volunteer.svg'
 import laboratory from  '@/assets/img/Laboratorys.svg'
